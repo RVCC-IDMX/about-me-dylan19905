@@ -40,6 +40,7 @@ border:2px solid purple}
 #gallery {
     border: 2px solid navy;
     background-color: lightblue;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -47,3 +48,18 @@ border:2px solid purple}
 }
 
 #gallery figure {text-align: center;}
+
+/*literature*/
+
+#lit {border: 2px solid yellowgreen;
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lit div { padding: 2rem;
+    max-width: 40rem;
+    margin: auto;
+
+
+}
+
