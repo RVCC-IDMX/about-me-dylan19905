@@ -6,9 +6,11 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
 font-family: "montserrat" ;
-font-size: 40pt;
+text-align: center;
+
 }
 
+h1 {font-size: 40px;}
 
 header {
     text-align: center;
@@ -24,3 +26,6 @@ border:2px solid purple}
 }
 
 #bio {text-align: center;}
+
+#hobbies {list-style-type:upper-roman; color: black; }
+
