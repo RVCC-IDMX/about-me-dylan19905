@@ -16,6 +16,9 @@ header {
     text-align: center;
 }
 
+
+h2 {margin-bottom: .1em;}
+
 /*hero Section*/
 
 #hero,footer {text-align: center;
@@ -33,7 +36,10 @@ border:2px solid purple}
 
 /*Hobbies Section*/
 
-#hobbies {list-style-type:upper-roman; color: black; }
+#hobbies {list-style-type:upper-roman; color: black;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; }
 
 /*Gallery Section*/
 
@@ -45,6 +51,7 @@ border:2px solid purple}
 
 #gallery img {
     max-width: 100%;
+    text-align: left;
 }
 
 #gallery figure {text-align: center;}
@@ -59,7 +66,41 @@ border:2px solid purple}
 #lit div { padding: 2rem;
     max-width: 40rem;
     margin: auto;
+    float:left;
+    padding: 2rem;
 
 
 }
+
+#lit div p {
+padding: 0.3rem 0;
+clear: both;
+
+}
+
+/*dropcaps*/
+
+#lit div p:nth-child(3n+1): first ::first-letter {
+
+}
+
+
+/* tablet size */
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+    }
+    
+}
+    
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
