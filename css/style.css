@@ -164,3 +164,14 @@ hr {
 }
 
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}
+
+
+fieldset {
+    color: rgb(0, 247, 255);
+}
+
